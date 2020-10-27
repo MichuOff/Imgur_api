@@ -1,0 +1,1718 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/App.js",
+    "content": "import React from \"react\";\nimport { StyleSheet, Text, LogBox } from \"react-native\";\nimport { NavigationContainer } from \"@react-navigation/native\";\nimport { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';\nimport { Ionicons } from \"@expo/vector-icons\";\nimport { Provider } from \"react-redux\";\nimport { View } from \"native-base\";\n\nimport { store } from \"./redux/store\";\nimport HomeScreen from \"./screens/HomeScreen\";\nimport LikeScreen from \"./screens/LikeScreen\";\nimport UploadScreen from \"./screens/UploadScreen\";\nimport SearchScreen from \"./screens/SearchScreen\";\nimport ProfileScreen from \"./screens/ProfileScreen\";\n\nexport default App = () => {\n    LogBox.ignoreAllLogs();\n    return (\n        <Provider store={store}>\n            <View style={styles.upper}>\n                <Text style={styles.text}>Epicture</Text>\n            </View>\n            <NavigationContainer>\n                <Tab.Navigator tabBarPosition='bottom'\n                    screenOptions={({ route }) => ({ tabBarIcon: ({ color, _ }) => <Ionicons name={icons.get(route.name)} size={24} color={color} /> })}\n                    tabBarOptions={tabBarOpt}\n                >\n                    <Tab.Screen name=\"Home\" component={HomeScreen} />\n                    <Tab.Screen name=\"Like\" component={LikeScreen} />\n                    <Tab.Screen name=\"Search\" component={SearchScreen} />\n                    <Tab.Screen name=\"Upload\" component={UploadScreen} />\n                    <Tab.Screen name=\"Profile\" component={ProfileScreen} />\n                </Tab.Navigator>\n            </NavigationContainer>\n        </Provider>\n    );\n}\n\nconst Tab = createMaterialTopTabNavigator();\n\nconst icons = new Map([\n    ['Home', 'ios-home'],\n    ['Like', 'ios-heart'],\n    ['Upload', 'md-cloud-upload'],\n    ['Profile', 'md-person'],\n    ['Search', 'ios-search']\n]);\n\nconst styles = StyleSheet.create({\n    container: {\n        flex: 1,\n        backgroundColor: \"#CCCCCC\",\n    },\n    upper: {\n        width: '100%',\n        height: '12%',\n        backgroundColor: \"#AB92BF\",\n        alignItems: \"center\",\n        justifyContent: \"center\"\n    },\n    logo: {\n        width: 250,\n        height: 100,\n        top: '10%'\n    },\n    text: {\n        color: \"#ffffff\",\n        fontSize: 30,\n        position: \"absolute\",\n        bottom: \"20%\"\n    }\n});\n\nconst tabBarOpt = {\n    activeTintColor: \"#ffffff\",\n    inactiveTintColor: \"#8662A3\",\n    showIcon: true,\n    style: {\n        backgroundColor: \"#AB92BF\",\n        borderTopColor: \"transparent\",\n    },\n    swipeEnabled: true,\n    showLabel: false,\n    animationEnabled: true,\n};\n",
+    "static": true,
+    "longname": "/var/home/quentin/year3/Epicture/repo/src/App.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "variable",
+    "name": "App",
+    "memberof": "src/App.js",
+    "static": true,
+    "longname": "src/App.js~App",
+    "access": "public",
+    "export": true,
+    "importPath": "./src/App.js",
+    "importStyle": "App",
+    "description": null,
+    "lineNumber": 16,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 50,
+    "kind": "variable",
+    "name": "Tab",
+    "memberof": "src/App.js",
+    "static": true,
+    "longname": "src/App.js~Tab",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/App.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 39,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 51,
+    "kind": "variable",
+    "name": "icons",
+    "memberof": "src/App.js",
+    "static": true,
+    "longname": "src/App.js~icons",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/App.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 41,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 52,
+    "kind": "variable",
+    "name": "styles",
+    "memberof": "src/App.js",
+    "static": true,
+    "longname": "src/App.js~styles",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/App.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 49,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 53,
+    "kind": "variable",
+    "name": "tabBarOpt",
+    "memberof": "src/App.js",
+    "static": true,
+    "longname": "src/App.js~tabBarOpt",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/App.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 74,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"activeTintColor\": string, \"inactiveTintColor\": string, \"showIcon\": boolean, \"style\": *, \"swipeEnabled\": boolean, \"showLabel\": *, \"animationEnabled\": boolean}"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 54,
+    "kind": "file",
+    "name": "src/component/ImageBox.js",
+    "content": "import React from \"react\";\nimport { StyleSheet, Image, AsyncStorage } from \"react-native\";\nimport { isUndefined } from \"lodash\";\nimport { Content, Card, CardItem, Text, Left, Center, Body, View, Right, Button } from \"native-base\";\nimport { AntDesign } from '@expo/vector-icons';\n\nasync function _favoritize(id) {\n    const token = await AsyncStorage.getItem('@token');\n    \n    await fetch(`https://api.imgur.com/3/image/${id}/favorite`, {\n        method: 'POST',\n        headers: { 'Authorization': `Bearer ${token}` }\n    });\n}\n\nconst Item = ({ item }) => {\n    if (isUndefined(item) || !item.images[0].link.match(/\\.(jpg|png|gif)/g))\n        return null;\n    const LikeImage = async () => {\n        const url = item.link\n        const id = item.images[0].id;\n\n        const getCurrent = await AsyncStorage.getItem('@like');\n        if (!getCurrent || getCurrent.split(' ').find(element => element === url) === undefined)\n            await AsyncStorage.setItem('@like', (!getCurrent) ? url : getCurrent.concat(' ', url));\n        if (AsyncStorage.getItem('@user'))\n            await _favoritize(id);\n    };\n\n    return (\n        <Content style={{ marginHorizontal: '2%', marginVertical: '2%' }}>\n            <Card style={{ backgroundColor: '#AB92BF', width: '100%' }}>\n                <CardItem cardBody style={{ backgroundColor: '#AB92BF' }}>\n                    <Image\n                        source={{ uri: item.images[0].link }}\n                        style={{ height: (item.images[0].height > 500) ? 300 : item.images[0].height, flex: 1 }}\n                    />\n                </CardItem>\n                <CardItem style={{ backgroundColor: '#AB92BF', width: '100%' }}>\n                    <Right>\n                        <Body>\n                            <Text style={{ color: '#8662A3', alignItems: 'center' }}>{item.title}</Text>\n                        </Body>\n                    </Right>\n                    <Right>\n                        <Button transparent onPress={LikeImage}>\n                            <AntDesign name=\"heart\" size={22} color=\"#8662A3\" />\n                        </Button>\n                    </Right>\n                </CardItem>\n            </Card>\n        </Content>\n    );\n};\n\nexport const ImageBox = (item) => {\n    return (isUndefined(item.data.images) ? null :\n        <View style={styles.container}>\n            <Item item={item.data} />\n        </View>\n    );\n};\n\nconst styles = StyleSheet.create({\n    container: {\n        flex: 1,\n        width: \"100%\",\n        flexDirection: \"row\",\n        justifyContent: \"space-evenly\",\n    }\n});\n",
+    "static": true,
+    "longname": "/var/home/quentin/year3/Epicture/repo/src/component/ImageBox.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 55,
+    "kind": "function",
+    "name": "_favoritize",
+    "memberof": "src/component/ImageBox.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/component/ImageBox.js~_favoritize",
+    "access": "private",
+    "export": false,
+    "importPath": "./src/component/ImageBox.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "params": [
+      {
+        "name": "id",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 56,
+    "kind": "function",
+    "name": "Item",
+    "memberof": "src/component/ImageBox.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/component/ImageBox.js~Item",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/component/ImageBox.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 16,
+    "undocument": true,
+    "params": [
+      {
+        "name": "objectPattern",
+        "types": [
+          "{\"item\": *}"
+        ],
+        "defaultRaw": {
+          "item": null
+        },
+        "defaultValue": "{\"item\":null}"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 57,
+    "kind": "function",
+    "name": "ImageBox",
+    "memberof": "src/component/ImageBox.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/component/ImageBox.js~ImageBox",
+    "access": "public",
+    "export": true,
+    "importPath": "./src/component/ImageBox.js",
+    "importStyle": "{ImageBox}",
+    "description": null,
+    "lineNumber": 56,
+    "undocument": true,
+    "params": [
+      {
+        "name": "item",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 58,
+    "kind": "variable",
+    "name": "styles",
+    "memberof": "src/component/ImageBox.js",
+    "static": true,
+    "longname": "src/component/ImageBox.js~styles",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/component/ImageBox.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 64,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 59,
+    "kind": "file",
+    "name": "src/component/Loading.js",
+    "content": "import React from \"react\";\nimport { View, ActivityIndicator } from \"react-native\";\n\nexport const LoadingComponent = ({ loading }) => {\n    return loading ? (\n        <View style={{ flex: 1, justifyContent: \"center\", alignItems: 'center' }}>\n            <ActivityIndicator size=\"large\" color=\"#ab92bf\" />\n        </View>\n    ) : null;\n};\n",
+    "static": true,
+    "longname": "/var/home/quentin/year3/Epicture/repo/src/component/Loading.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 60,
+    "kind": "function",
+    "name": "LoadingComponent",
+    "memberof": "src/component/Loading.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/component/Loading.js~LoadingComponent",
+    "access": "public",
+    "export": true,
+    "importPath": "./src/component/Loading.js",
+    "importStyle": "{LoadingComponent}",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "params": [
+      {
+        "name": "objectPattern",
+        "types": [
+          "{\"loading\": *}"
+        ],
+        "defaultRaw": {
+          "loading": null
+        },
+        "defaultValue": "{\"loading\":null}"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 61,
+    "kind": "file",
+    "name": "src/redux/feed_api.js",
+    "content": "import { concat } from 'lodash'\n\nimport { updateViral, updateLoading } from \"./store\";\n\nexport const CLIENT_ID = \"afc1eafd0214c9d\"\n\nexport const getViralLogic = (dispatch, page, viral) => {\n    fetch(`https://api.imgur.com/3/gallery/hot/viral/${page}?showViral=true&mature=true`, {\n        method: \"GET\",\n        headers: {\n            Accept: \"application/json\",\n            'Authorization': `Client-ID ${CLIENT_ID}`,\n            \"Content-Type\": \"application/json\",\n        },\n    }).then((response) => response.json())\n        .then((responseData) => {\n            console.log(responseData);\n            if (responseData.data) {\n                dispatch(updateLoading(false))\n                dispatch(updateViral(concat(viral, responseData.data)));\n            }\n        })\n        .done();\n};\n",
+    "static": true,
+    "longname": "/var/home/quentin/year3/Epicture/repo/src/redux/feed_api.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 62,
+    "kind": "variable",
+    "name": "CLIENT_ID",
+    "memberof": "src/redux/feed_api.js",
+    "static": true,
+    "longname": "src/redux/feed_api.js~CLIENT_ID",
+    "access": "public",
+    "export": true,
+    "importPath": "./src/redux/feed_api.js",
+    "importStyle": "{CLIENT_ID}",
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 63,
+    "kind": "function",
+    "name": "getViralLogic",
+    "memberof": "src/redux/feed_api.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/redux/feed_api.js~getViralLogic",
+    "access": "public",
+    "export": true,
+    "importPath": "./src/redux/feed_api.js",
+    "importStyle": "{getViralLogic}",
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "params": [
+      {
+        "name": "dispatch",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "page",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "viral",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 64,
+    "kind": "file",
+    "name": "src/redux/like_api.js",
+    "content": "import { concat } from 'lodash'\n\nimport { updateViral, updateLoading } from \"./store\";\n\nexport const CLIENT_ID = \"afc1eafd0214c9d\"\n// export const CLIENT_SECRET = \"5cc0ae8cce04a375a2bece7e912a27f063d62ccc\"\n\nexport const getViralLogic = (dispatch, page, viral) => {\n  fetch(`https://api.imgur.com/3/gallery/hot/viral/year/${page}?showViral=true&mature=false&album`, {\n    method: \"GET\",\n    headers: {\n      Accept: \"application/json\",\n      'Authorization': `Client-ID ${CLIENT_ID}`,\n      \"Content-Type\": \"application/json\",\n    },\n  })\n    .then((response) => response.json())\n    .then((responseData) => {\n      if (responseData.data) {\n        dispatch(updateLoading(false))\n        dispatch(updateViral(concat(viral, responseData.data)));\n      }\n    })\n    .done();\n};",
+    "static": true,
+    "longname": "/var/home/quentin/year3/Epicture/repo/src/redux/like_api.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 65,
+    "kind": "variable",
+    "name": "CLIENT_ID",
+    "memberof": "src/redux/like_api.js",
+    "static": true,
+    "longname": "src/redux/like_api.js~CLIENT_ID",
+    "access": "public",
+    "export": true,
+    "importPath": "./src/redux/like_api.js",
+    "importStyle": "{CLIENT_ID}",
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 66,
+    "kind": "function",
+    "name": "getViralLogic",
+    "memberof": "src/redux/like_api.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/redux/like_api.js~getViralLogic",
+    "access": "public",
+    "export": true,
+    "importPath": "./src/redux/like_api.js",
+    "importStyle": "{getViralLogic}",
+    "description": null,
+    "lineNumber": 8,
+    "undocument": true,
+    "params": [
+      {
+        "name": "dispatch",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "page",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "viral",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 67,
+    "kind": "file",
+    "name": "src/screens/HomeScreen.js",
+    "content": "import React, { useState } from \"react\";\nimport { StyleSheet, View, ScrollView, FlatList, Dimensions, TextInput } from \"react-native\";\nimport { useSelector, useDispatch } from \"react-redux\";\n\nimport { getViralLogic } from \"../redux/feed_api\";\nimport { LoadingComponent } from \"../component/Loading\";\nimport { ImageBox } from \"../component/ImageBox\";\n\nexport default HomeScreen = () => {\n    const [page, setPage] = useState(1);\n    const [viralActive, setViral] = useState(true);\n    const { viral, loading } = useSelector((state) => state);\n    const dispatch = useDispatch();\n\n    if (viral.length === 0 && viralActive)\n        getViralLogic(dispatch, page, viral);\n\n    const refresh = () => {\n        setPage(page++);\n        getViralLogic(dispatch, page, viral);\n    };\n\n    return (\n        <ScrollView scrollEventThrottle={16}>\n            <View style={styles.scrollView}>\n                <LoadingComponent loading={loading} />\n                {viralActive && viral.length !== 0 && !loading && (\n                    <FlatList\n                        data={viral}\n                        renderItem={({ item }) => <ImageBox data={item} />}\n                        onEndReached={refresh}\n                        keyExtractor={(_, index) => index.toString()}\n                    />\n                )}\n            </View>\n        </ScrollView>\n    );\n}\n\nconst screenWidth = Dimensions.get(\"window\").width;\n\nconst styles = StyleSheet.create({\n    container: {\n        flex: 1,\n        backgroundColor: \"#2d2d2e\",\n        width: \"100%\",\n        height: \"100%\",\n    },\n    scrollView: {\n        flex: 1,\n        marginTop: 20,\n        width: screenWidth,\n        justifyContent: \"center\",\n        alignItems: \"center\",\n    },\n});",
+    "static": true,
+    "longname": "/var/home/quentin/year3/Epicture/repo/src/screens/HomeScreen.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 68,
+    "kind": "variable",
+    "name": "HomeScreen",
+    "memberof": "src/screens/HomeScreen.js",
+    "static": true,
+    "longname": "src/screens/HomeScreen.js~HomeScreen",
+    "access": "public",
+    "export": true,
+    "importPath": "./src/screens/HomeScreen.js",
+    "importStyle": "HomeScreen",
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 69,
+    "kind": "variable",
+    "name": "screenWidth",
+    "memberof": "src/screens/HomeScreen.js",
+    "static": true,
+    "longname": "src/screens/HomeScreen.js~screenWidth",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/screens/HomeScreen.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 40,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 70,
+    "kind": "variable",
+    "name": "styles",
+    "memberof": "src/screens/HomeScreen.js",
+    "static": true,
+    "longname": "src/screens/HomeScreen.js~styles",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/screens/HomeScreen.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 42,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 71,
+    "kind": "file",
+    "name": "src/screens/LikeScreen.js",
+    "content": "import React, { useState } from \"react\";\nimport { Image, StyleSheet, View, ScrollView, FlatList, Dimensions } from \"react-native\";\nimport AsyncStorage from '@react-native-community/async-storage';\n\nasync function _getFavorites(setFavorites) {\n    const token = await AsyncStorage.getItem('@token');\n    const name = JSON.parse(await AsyncStorage.getItem('@user')).data.url;\n\n    if (token)\n        fetch(`https://api.imgur.com/3/account/${name}/favorites/`, {\n            method: 'GET',\n            headers: { 'Authorization': `Bearer ${token}` }\n        }).then(response => response.json())\n            .then(json => {\n                if (json.success === true)\n                    setFavorites(json.data)\n            })\n            .done();\n}\n\nexport default App = () => {\n    const [favorites, setFavorites] = useState([]);\n\n    if (favorites.length === 0)\n        _getFavorites(setFavorites);\n    return (\n        <ScrollView horizontal scrollEventThrottle={16}>\n            <View style={styles.scrollView}>\n                <FlatList\n                    data={favorites}\n                    renderItem={({ item }) => <Image style={styles.tinyLogo} source={{ uri: item.link }} />}\n                    keyExtractor={(_, index) => index.toString()}\n                />\n            </View>\n        </ScrollView>\n    );\n}\n\nconst styles = StyleSheet.create({\n    scrollView: {\n        flex: 1,\n        marginTop: 20,\n        width: Dimensions.get(\"window\").width,\n        justifyContent: \"center\",\n        alignItems: \"center\",\n    },\n    tinyLogo: {\n        width: 300,\n        height: 300,\n    },\n});\n",
+    "static": true,
+    "longname": "/var/home/quentin/year3/Epicture/repo/src/screens/LikeScreen.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 72,
+    "kind": "function",
+    "name": "_getFavorites",
+    "memberof": "src/screens/LikeScreen.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/screens/LikeScreen.js~_getFavorites",
+    "access": "private",
+    "export": false,
+    "importPath": "./src/screens/LikeScreen.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "params": [
+      {
+        "name": "setFavorites",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 73,
+    "kind": "variable",
+    "name": "App",
+    "memberof": "src/screens/LikeScreen.js",
+    "static": true,
+    "longname": "src/screens/LikeScreen.js~App",
+    "access": "public",
+    "export": true,
+    "importPath": "./src/screens/LikeScreen.js",
+    "importStyle": "App",
+    "description": null,
+    "lineNumber": 21,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 74,
+    "kind": "variable",
+    "name": "styles",
+    "memberof": "src/screens/LikeScreen.js",
+    "static": true,
+    "longname": "src/screens/LikeScreen.js~styles",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/screens/LikeScreen.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 39,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 75,
+    "kind": "file",
+    "name": "src/screens/LoginView.js",
+    "content": "import React from \"react\";\nimport { View, StatusBar, StyleSheet } from \"react-native\";\nimport { WebView } from 'react-native-webview';\nimport AsyncStorage from '@react-native-community/async-storage';\n\nfunction _getUrlItem(url, item) {\n    const beg = url.indexOf(`${item}=`) + `${item}=`.length;\n    const end = url.indexOf('&', beg);\n\n    return url.substring(beg, end);\n}\n\nasync function _getUserInfos(url) {\n    return await fetch(`https://api.imgur.com/3/account/${_getUrlItem(url, 'account_username')}`, {\n        method: 'GET',\n        headers: {\n            'Authorization': 'Client-ID afc1eafd0214c9d',\n            'Content-Type': 'application/json',\n        }\n    });\n}\n\nasync function _getUserInfosAsJSON(url) {\n    const infos = await _getUserInfos(url);\n\n    return await infos.json();\n}\n\nasync function _storeUser(url) {\n    try {\n        await AsyncStorage.setItem('@user', JSON.stringify(await _getUserInfosAsJSON(url)));\n        await AsyncStorage.setItem('@token', _getUrlItem(url, 'access_token'));\n    } catch (err) {\n        console.log(err);\n    }\n}\n\nasync function _handleRedirect(url) {\n    if (!url.includes('oauth2/authorize') && url.includes('access_token') && count++ === 0)\n        await _storeUser(url);\n}\n\nexport default LoginView = (props) => {\n    return (\n        <View style={styles.container}>\n            <StatusBar barStyle='default' />\n            <View style={styles.container}>\n                <WebView\n                    source={{ uri: 'https://api.imgur.com/oauth2/authorize?client_id=afc1eafd0214c9d&response_type=token&state=\"\"' }}\n                    onNavigationStateChange={async (webViewState) => {\n                        await _handleRedirect(webViewState.url);\n                        props.a(JSON.parse(await AsyncStorage.getItem('@user')));\n                    }}\n                    javaScriptEnabledAndroid={true}\n                    javaScriptEnabled={true}\n                    style={{}}\n                />\n            </View>\n        </View>\n    );\n}\n\nlet count = 0;\n\nconst styles = StyleSheet.create({\n    container: {\n        flex: 1\n    }\n});\n",
+    "static": true,
+    "longname": "/var/home/quentin/year3/Epicture/repo/src/screens/LoginView.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 76,
+    "kind": "function",
+    "name": "_getUrlItem",
+    "memberof": "src/screens/LoginView.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/screens/LoginView.js~_getUrlItem",
+    "access": "private",
+    "export": false,
+    "importPath": "./src/screens/LoginView.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "params": [
+      {
+        "name": "url",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "item",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 77,
+    "kind": "function",
+    "name": "_getUserInfos",
+    "memberof": "src/screens/LoginView.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/screens/LoginView.js~_getUserInfos",
+    "access": "private",
+    "export": false,
+    "importPath": "./src/screens/LoginView.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 13,
+    "undocument": true,
+    "params": [
+      {
+        "name": "url",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 78,
+    "kind": "function",
+    "name": "_getUserInfosAsJSON",
+    "memberof": "src/screens/LoginView.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/screens/LoginView.js~_getUserInfosAsJSON",
+    "access": "private",
+    "export": false,
+    "importPath": "./src/screens/LoginView.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 23,
+    "undocument": true,
+    "params": [
+      {
+        "name": "url",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 79,
+    "kind": "function",
+    "name": "_storeUser",
+    "memberof": "src/screens/LoginView.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/screens/LoginView.js~_storeUser",
+    "access": "private",
+    "export": false,
+    "importPath": "./src/screens/LoginView.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 29,
+    "undocument": true,
+    "params": [
+      {
+        "name": "url",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 80,
+    "kind": "function",
+    "name": "_handleRedirect",
+    "memberof": "src/screens/LoginView.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/screens/LoginView.js~_handleRedirect",
+    "access": "private",
+    "export": false,
+    "importPath": "./src/screens/LoginView.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 38,
+    "undocument": true,
+    "params": [
+      {
+        "name": "url",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 81,
+    "kind": "variable",
+    "name": "LoginView",
+    "memberof": "src/screens/LoginView.js",
+    "static": true,
+    "longname": "src/screens/LoginView.js~LoginView",
+    "access": "public",
+    "export": true,
+    "importPath": "./src/screens/LoginView.js",
+    "importStyle": "LoginView",
+    "description": null,
+    "lineNumber": 43,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 82,
+    "kind": "variable",
+    "name": "count",
+    "memberof": "src/screens/LoginView.js",
+    "static": true,
+    "longname": "src/screens/LoginView.js~count",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/screens/LoginView.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 63,
+    "undocument": true,
+    "type": {
+      "types": [
+        "number"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 83,
+    "kind": "variable",
+    "name": "styles",
+    "memberof": "src/screens/LoginView.js",
+    "static": true,
+    "longname": "src/screens/LoginView.js~styles",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/screens/LoginView.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 65,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 84,
+    "kind": "file",
+    "name": "src/screens/ProfileScreen.js",
+    "content": "import React, { useState, useEffect } from 'react';\nimport { Image, Text, View, StyleSheet } from 'react-native';\nimport AsyncStorage from '@react-native-community/async-storage';\nimport SpinnerButton from 'react-native-spinner-button';\n\nimport LoginView from './LoginView';\n\nfunction _logout(setInfos, setLoading) {\n    setLoading(true);\n    AsyncStorage.clear()\n        .then(_ => {\n            console.log('logged out');\n            setInfos(null);\n            setLoading(false);\n        })\n        .done();\n}\n\nexport default App = () => {\n    const [infos, setInfos] = useState(null);\n    const [loading, setLoading] = useState(false);\n\n    useEffect(() => {\n        AsyncStorage.getItem('@user')\n            .then(value => {\n                if (value)\n                    setInfos(JSON.parse(value));\n            })\n            .done();\n    }, []);\n\n    return ((!infos) ? <LoginView a={setInfos} /> :\n        <View style={styles.container}>\n            <Text>{infos.data.url}</Text>\n            <Image style={styles.tinyLogo} source={{ uri: infos.data.avatar }} />\n            <Text>bio: {infos.data.bio}</Text>\n            <SpinnerButton buttonStyle={styles.button} spinnerType='SkypeIndicator' isLoading={loading} onPress={() => _logout(setInfos, setLoading)} indicatorCount={10}>\n                <Text style={styles.text}>logout</Text>\n            </SpinnerButton>\n        </View>\n    );\n}\n\nconst styles = StyleSheet.create({\n    container: {\n        flex: 1,\n        alignItems: 'center',\n        alignContent: 'center',\n        justifyContent: 'center',\n    },\n    tinyLogo: {\n        width: 50,\n        height: 50,\n    },\n    button: {\n        borderRadius: 200,\n        margin: 5,\n        backgroundColor: '#AB92BF'\n    },\n    text: {\n        fontSize: 15,\n        textAlign: 'center',\n        color: 'white',\n        paddingHorizontal: 15,\n    }\n})\n\n// function _delete(id, setInfos) {\n//     AsyncStorage.getItem('@token')\n//         .then(token => {\n//             const data = '       \\\n//                 {\"password\": \"\", \\\n//                     \"reasons\": [ \\\n//                     \"Reason #1\", \\\n//                     \"Reason #2\"  \\\n//                 ],               \\\n//                 \"feedback\": \"MOAR CATGIFS\"}';\n//             fetch(`https://api.imgur.com/3/account/me/delete?client_id=${id}`, {\n//                 method: 'POST',\n//                 headers: {\n//                     'Authorization': `Bearer ${token}`,\n//                     'Content-Type': 'application/json'\n//                 },\n//                 body: data\n//             }).then(response => response.json())\n//                 .then(json => {\n//                     console.log(json);\n//                     _logout(setInfos);\n//                 })\n//                 .done();\n//         }).done();\n// }\n",
+    "static": true,
+    "longname": "/var/home/quentin/year3/Epicture/repo/src/screens/ProfileScreen.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 85,
+    "kind": "function",
+    "name": "_logout",
+    "memberof": "src/screens/ProfileScreen.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/screens/ProfileScreen.js~_logout",
+    "access": "private",
+    "export": false,
+    "importPath": "./src/screens/ProfileScreen.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 8,
+    "undocument": true,
+    "params": [
+      {
+        "name": "setInfos",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "setLoading",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 86,
+    "kind": "variable",
+    "name": "App",
+    "memberof": "src/screens/ProfileScreen.js",
+    "static": true,
+    "longname": "src/screens/ProfileScreen.js~App",
+    "access": "public",
+    "export": true,
+    "importPath": "./src/screens/ProfileScreen.js",
+    "importStyle": "App",
+    "description": null,
+    "lineNumber": 19,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 87,
+    "kind": "variable",
+    "name": "styles",
+    "memberof": "src/screens/ProfileScreen.js",
+    "static": true,
+    "longname": "src/screens/ProfileScreen.js~styles",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/screens/ProfileScreen.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 44,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 88,
+    "kind": "file",
+    "name": "src/screens/UploadScreen.js",
+    "content": "import * as ImagePicker from 'expo-image-picker';\nimport React, { useEffect, useState, useRef } from 'react';\nimport { View, StyleSheet, Text, Image, ScrollView, Pressable, Dimensions } from 'react-native';\nimport AsyncStorage from '@react-native-community/async-storage';\nimport SpinnerButton from 'react-native-spinner-button';\n\nasync function _askPerm(mode) {\n    const check = (mode === 'camera') ? await ImagePicker.getCameraPermissionsAsync() : await ImagePicker.getCameraRollPermissionsAsync();\n\n    if (check.status !== 'granted') {\n        const { status } = (mode === 'camera') ? await ImagePicker.requestCameraPermissionsAsync() : await ImagePicker.requestCameraRollPermissionsAsync();\n        if (status !== 'granted')\n            alert('Permission needed');\n    }\n}\n\nasync function _askPerms() {\n    await _askPerm('camera');\n    await _askPerm('gallery');\n}\n\nasync function _pickImg(mode) {\n    const opts = {\n        mediaTypes: ImagePicker.MediaTypeOptions.Images,\n        allowsEditing: false,\n        quality: undefined,\n        base64: true,\n    };\n    return (mode === 'camera') ? await ImagePicker.launchCameraAsync(opts) : await ImagePicker.launchImageLibraryAsync(opts);\n}\n\nfunction _createData(result) {\n    const data = new FormData();\n\n    data.append(\"image\", result.base64);\n    data.append(\"title\", \"MySuperImage\");\n    data.append(\"description\", \"image upload from our Epicture server\");\n    return data;\n}\n\nasync function _sendReq(token, data) {\n    const auth = (!token) ? 'Client-ID afc1eafd0214c9d' : `Bearer ${token}`;\n    const value = await fetch('https://api.imgur.com/3/image', {\n        method: 'POST',\n        headers: {\n            'Authorization': auth,\n            'Content-Type': 'multipart/form-data'\n        },\n        body: data\n    });\n    console.log(await value.json());\n}\n\nasync function _upload(mode) {\n    try {\n        const token = await AsyncStorage.getItem('@token');\n        let result = await _pickImg(mode);\n\n        if (!result.cancelled)\n            await _sendReq(token, _createData(result));\n    } catch (err) {\n        console.log(err);\n    }\n}\n\nasync function _getPosts(setPosts) {\n    const token = await AsyncStorage.getItem('@token');\n\n    if (!token)\n        return;\n    const value = await fetch('https://api.imgur.com/3/account/me/images', {\n        method: 'GET',\n        headers: {\n            'Authorization': `Bearer ${token}`,\n        },\n    });\n    if (value.ok)\n        setPosts((await value.json()).data);\n}\n\nexport default function UploadScreen() {\n    const [loadingCam, setLoadingCam] = useState(false);\n    const [loadingGal, setLoadingGal] = useState(false);\n    const [id, setId] = useState('');\n    const [posts, setPosts] = useState([]);\n    const _pickFromGallery = async () => { setLoadingGal(true); await _upload('gallery'); setLoadingGal(false); await _getPosts(setPosts); }\n    const _pickFromCamera = async () => { setLoadingCam(true); await _upload('camera'); setLoadingCam(false); await _getPosts(setPosts); }\n\n    useEffect(() => {\n        _askPerms();\n    }, []);\n\n    return (\n        <View style={styles.container}>\n            <View style={styles.scroll}>\n                <ScrollView vertical scrollEventThrottle={16}>\n                    <View style={{ flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'flex-start', alignItems: 'flex-start', direction: 'inherit' }}>\n                        {posts.map(item => {\n                            return (\n                                <Pressable onPress={() => { setId((item.id == id) ? '' : item.id); }}>\n                                    {\n                                        item.id !== id && <Image style={[styles.tinyLogo, { width: 70, height: 70 }]} source={{ uri: item.link }} />\n                                    }\n                                    {\n                                        item.id === id && <Image style={[styles.tinyLogo, { width: Dimensions.get('screen').width, height: Dimensions.get('screen').width }]} source={{ uri: item.link }} />\n                                    }\n                                </Pressable>\n                            );\n                        })}\n                    </View>\n                </ScrollView>\n            </View>\n\n            <View style={styles.bottom}>\n                <SpinnerButton buttonStyle={styles.button} spinnerType='SkypeIndicator' isLoading={loadingGal} onPress={_pickFromGallery} indicatorCount={10}>\n                    <Text style={styles.text}>upload from gallery</Text>\n                </SpinnerButton>\n                <SpinnerButton buttonStyle={styles.button} spinnerType='SkypeIndicator' isLoading={loadingCam} onPress={_pickFromCamera} indicatorCount={10}>\n                    <Text style={styles.text}>upload from camera</Text>\n                </SpinnerButton>\n            </View>\n        </View>\n    );\n}\n\nconst styles = StyleSheet.create({\n    container: {\n        flex: 1,\n    },\n    scroll: {\n        flex: 8,\n    },\n    tinyLogo: {\n        margin: 10,\n    },\n    text: {\n        fontSize: 15,\n        textAlign: 'center',\n        color: 'white',\n        paddingHorizontal: 15,\n    },\n    button: {\n        borderRadius: 200,\n        margin: 5,\n        backgroundColor: '#AB92BF'\n    },\n    bottom: {\n        flex: 1,\n        flexDirection: 'row',\n        justifyContent: 'center'\n    }\n});\n",
+    "static": true,
+    "longname": "/var/home/quentin/year3/Epicture/repo/src/screens/UploadScreen.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 89,
+    "kind": "function",
+    "name": "_askPerm",
+    "memberof": "src/screens/UploadScreen.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/screens/UploadScreen.js~_askPerm",
+    "access": "private",
+    "export": false,
+    "importPath": "./src/screens/UploadScreen.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "params": [
+      {
+        "name": "mode",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 90,
+    "kind": "function",
+    "name": "_askPerms",
+    "memberof": "src/screens/UploadScreen.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/screens/UploadScreen.js~_askPerms",
+    "access": "private",
+    "export": false,
+    "importPath": "./src/screens/UploadScreen.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 17,
+    "undocument": true,
+    "params": [],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 91,
+    "kind": "function",
+    "name": "_pickImg",
+    "memberof": "src/screens/UploadScreen.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/screens/UploadScreen.js~_pickImg",
+    "access": "private",
+    "export": false,
+    "importPath": "./src/screens/UploadScreen.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 22,
+    "undocument": true,
+    "params": [
+      {
+        "name": "mode",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 92,
+    "kind": "function",
+    "name": "_createData",
+    "memberof": "src/screens/UploadScreen.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/screens/UploadScreen.js~_createData",
+    "access": "private",
+    "export": false,
+    "importPath": "./src/screens/UploadScreen.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 32,
+    "undocument": true,
+    "params": [
+      {
+        "name": "result",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 93,
+    "kind": "function",
+    "name": "_sendReq",
+    "memberof": "src/screens/UploadScreen.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/screens/UploadScreen.js~_sendReq",
+    "access": "private",
+    "export": false,
+    "importPath": "./src/screens/UploadScreen.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 41,
+    "undocument": true,
+    "params": [
+      {
+        "name": "token",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "data",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 94,
+    "kind": "function",
+    "name": "_upload",
+    "memberof": "src/screens/UploadScreen.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/screens/UploadScreen.js~_upload",
+    "access": "private",
+    "export": false,
+    "importPath": "./src/screens/UploadScreen.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 54,
+    "undocument": true,
+    "params": [
+      {
+        "name": "mode",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 95,
+    "kind": "function",
+    "name": "_getPosts",
+    "memberof": "src/screens/UploadScreen.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/screens/UploadScreen.js~_getPosts",
+    "access": "private",
+    "export": false,
+    "importPath": "./src/screens/UploadScreen.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 66,
+    "undocument": true,
+    "params": [
+      {
+        "name": "setPosts",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 96,
+    "kind": "function",
+    "name": "UploadScreen",
+    "memberof": "src/screens/UploadScreen.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/screens/UploadScreen.js~UploadScreen",
+    "access": "public",
+    "export": true,
+    "importPath": "./src/screens/UploadScreen.js",
+    "importStyle": "UploadScreen",
+    "description": null,
+    "lineNumber": 81,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 97,
+    "kind": "variable",
+    "name": "styles",
+    "memberof": "src/screens/UploadScreen.js",
+    "static": true,
+    "longname": "src/screens/UploadScreen.js~styles",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/screens/UploadScreen.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 126,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "kind": "index",
+    "content": "## Introduction:\n\n[Imgur](https://imgur.com/) is an image hosting and sharing site, favoured by users of social media and social news sitesbecause of its ease of use and flexibility.\nThe goal of this project was to build an Android/IOS application which use and implement online photo sharing using [Imgur](https://imgur.com/) API.\nFor this project we choose to develop our app in react-native, a framework for building native apps using React.\n\n## Summary:\n* [Requirements](#user-content-requirements) \n* [Installation](#user-content-installation) \n* [Usage](#user-content-usage) \n* [Features](#user-content-features) \n* [Authors](#user-content-authors) \n\n## Requirements:\n\n- nodejs\n- npm\n- react\n- react-native\n- expo\n- redux\n\n## Installation:\n\n#### Get Node.js and npm:\n**Fedora**\n\n```sh\nsudo dnf install nodejs\n```\n**Arch Linux**\n\n```sh\npacman -S nodejs npm\n```\n**Ubuntu**\n\n```sh\ncurl -sL https://deb.nodesource.com/setup_15.x | sudo -E bash -\nsudo apt-get install -y nodejs\n```\n\n#### Get React Native and Expo:\n```sh\nnpm install -g expo-cli\n```\n\n#### Get Redux:\n```sh\nnpm install @reduxjs/toolkit\n```\n\n## Usage:\n\n**Run App with:**\n```sh\nnpm install\nsudo expo start\n```\n\n**Get Hybrid App with:**\n```sh\nnpm install\nsudo expo build:android  # Android\nsudo expo build:ios      # IOs\n```\n\n## Features:\n\nThe app is decomposed into 5 differents screens (1 for each functionnality): [Home](#user-content-home), [Like](#user-content-like), [Search](#user-content-search), [Upload](#user-content-upload) and [Profile](#user-content-profile) screen.\nYou can swipe or simply press the logo at the bottom of your mobile screen to navigate between each functionnality.\n\n### Home:\n - Here you can see the most viral pictures post by users\n - Scroll down to see more pictures\n - You can like an image simply by pressing the **like button** below, and then go to see it in the [Like](#user-content-like) screen\n\n### Like:\n - Here you can see only pictures you liked before\n - Scroll down to see more pictures\n - You **must be logged in** to access this functionnality\n\n### Search:\n - To use this functionnality, enter a **keyword** in the search bar and then press the **submit** button\n - You will then see images corresponding to the keyword you entered\n - Scroll down to see more pictures\n - You can search for another **keyword** whenever you want\n\n### Upload:\n - Click the **upload from gallery**, and then chose an image from your **gallery** to be upload on the [Imgur](https://imgur.com/) platform\n - Click the **upload from camera**, and then take a photo with your **camera** to upload it on the [Imgur](https://imgur.com/) platform\n - **Permissions** on your phone's Camera/Gallery **must be granted** by the user to use these functionnalities\n\n### Profile:\n - Here you can log in to the [Imgur](https://imgur.com/) platform and then authorize Epicture to use your [Imgur](https://imgur.com/) account\n - Press the **logout** button to disconnect from Epicture\n\n## Authors:\n\nMichel KUSY / Quentin MAILLARD\n",
+    "longname": "/var/home/quentin/year3/Epicture/repo/README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"main\": \"index.js\",\n  \"scripts\": {\n    \"android\": \"react-native run-android\",\n    \"ios\": \"react-native run-ios\",\n    \"web\": \"expo start --web\",\n    \"start\": \"react-native start\",\n    \"eject\": \"expo eject\"\n  },\n  \"dependencies\": {\n    \"@expo/vector-icons\": \"^10.2.1\",\n    \"@react-native-community/async-storage\": \"^1.12.1\",\n    \"@react-native-community/masked-view\": \"^0.1.10\",\n    \"@react-navigation/bottom-tabs\": \"^5.9.1\",\n    \"@react-navigation/drawer\": \"^5.9.3\",\n    \"@react-navigation/material-top-tabs\": \"^5.2.19\",\n    \"@react-navigation/native\": \"^5.7.6\",\n    \"@react-navigation/stack\": \"^5.9.3\",\n    \"core-js\": \"^3.6.5\",\n    \"eslint\": \"^7.11.0\",\n    \"expo\": \"^39.0.3\",\n    \"expo-asset\": \"~8.2.0\",\n    \"expo-constants\": \"~9.2.0\",\n    \"expo-font\": \"~8.3.0\",\n    \"expo-image-picker\": \"^9.1.1\",\n    \"expo-splash-screen\": \"~0.6.2\",\n    \"expo-status-bar\": \"~1.0.2\",\n    \"expo-updates\": \"~0.3.2\",\n    \"kleur\": \"^3.0.3\",\n    \"left-pad\": \"^1.3.0\",\n    \"lodash\": \"^4.17.20\",\n    \"native-base\": \"^2.13.14\",\n    \"react\": \"16.13.1\",\n    \"react-dom\": \"16.13.1\",\n    \"react-native\": \"~0.63.3\",\n    \"react-native-elements\": \"^3.0.0-alpha.1\",\n    \"react-native-gesture-handler\": \"^1.7.0\",\n    \"react-native-gradient-buttons\": \"^2.0.1\",\n    \"react-native-paper\": \"^2.16.0\",\n    \"react-native-reanimated\": \"~1.13.0\",\n    \"react-native-screens\": \"~2.10.1\",\n    \"react-native-spinner-button\": \"^1.0.3\",\n    \"react-native-tab-view\": \"^2.15.2\",\n    \"react-native-unimodules\": \"~0.11.0\",\n    \"react-native-web\": \"~0.13.12\",\n    \"react-native-webview\": \"^10.7.0\",\n    \"react-navigation\": \"^4.4.2\",\n    \"react-navigation-material-bottom-tabs\": \"^2.3.2\",\n    \"react-redux\": \"^7.2.1\",\n    \"redux\": \"^4.0.5\"\n  },\n  \"devDependencies\": {\n    \"@babel/core\": \"~7.9.0\",\n    \"babel-jest\": \"~25.2.6\",\n    \"esdoc\": \"^1.1.0\",\n    \"esdoc-jsx-plugin\": \"^1.0.0\",\n    \"esdoc-standard-plugin\": \"^1.0.0\",\n    \"jest\": \"~25.2.6\",\n    \"react-test-renderer\": \"~16.13.1\"\n  },\n  \"jest\": {\n    \"preset\": \"react-native\"\n  },\n  \"private\": true\n}\n",
+    "longname": "/var/home/quentin/year3/Epicture/repo/package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  }
+]

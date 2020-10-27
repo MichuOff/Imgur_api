@@ -1,0 +1,107 @@
+{
+  "coverage": "0%",
+  "expectCount": 40,
+  "actualCount": 0,
+  "files": {
+    "src/App.js": {
+      "expectCount": 5,
+      "actualCount": 0,
+      "undocumentLines": [
+        16,
+        39,
+        41,
+        49,
+        74
+      ]
+    },
+    "src/component/ImageBox.js": {
+      "expectCount": 4,
+      "actualCount": 0,
+      "undocumentLines": [
+        7,
+        16,
+        56,
+        64
+      ]
+    },
+    "src/component/Loading.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        4
+      ]
+    },
+    "src/redux/feed_api.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        5,
+        7
+      ]
+    },
+    "src/redux/like_api.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        5,
+        8
+      ]
+    },
+    "src/screens/HomeScreen.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        9,
+        40,
+        42
+      ]
+    },
+    "src/screens/LikeScreen.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        5,
+        21,
+        39
+      ]
+    },
+    "src/screens/LoginView.js": {
+      "expectCount": 8,
+      "actualCount": 0,
+      "undocumentLines": [
+        6,
+        13,
+        23,
+        29,
+        38,
+        43,
+        63,
+        65
+      ]
+    },
+    "src/screens/ProfileScreen.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        8,
+        19,
+        44
+      ]
+    },
+    "src/screens/UploadScreen.js": {
+      "expectCount": 9,
+      "actualCount": 0,
+      "undocumentLines": [
+        7,
+        17,
+        22,
+        32,
+        41,
+        54,
+        66,
+        81,
+        126
+      ]
+    }
+  }
+}

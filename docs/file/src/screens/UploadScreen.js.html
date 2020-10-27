@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../">
+  <title data-ice="title">src/screens/UploadScreen.js</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-App">App</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component">component</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ImageBox">ImageBox</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-LoadingComponent">LoadingComponent</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#redux">redux</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getViralLogic">getViralLogic</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getViralLogic">getViralLogic</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CLIENT_ID">CLIENT_ID</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CLIENT_ID">CLIENT_ID</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens">screens</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-UploadScreen">UploadScreen</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-HomeScreen">HomeScreen</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-App">App</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-LoginView">LoginView</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-App">App</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/screens/UploadScreen.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import * as ImagePicker from &apos;expo-image-picker&apos;;
+import React, { useEffect, useState, useRef } from &apos;react&apos;;
+import { View, StyleSheet, Text, Image, ScrollView, Pressable, Dimensions } from &apos;react-native&apos;;
+import AsyncStorage from &apos;@react-native-community/async-storage&apos;;
+import SpinnerButton from &apos;react-native-spinner-button&apos;;
+
+async function _askPerm(mode) {
+    const check = (mode === &apos;camera&apos;) ? await ImagePicker.getCameraPermissionsAsync() : await ImagePicker.getCameraRollPermissionsAsync();
+
+    if (check.status !== &apos;granted&apos;) {
+        const { status } = (mode === &apos;camera&apos;) ? await ImagePicker.requestCameraPermissionsAsync() : await ImagePicker.requestCameraRollPermissionsAsync();
+        if (status !== &apos;granted&apos;)
+            alert(&apos;Permission needed&apos;);
+    }
+}
+
+async function _askPerms() {
+    await _askPerm(&apos;camera&apos;);
+    await _askPerm(&apos;gallery&apos;);
+}
+
+async function _pickImg(mode) {
+    const opts = {
+        mediaTypes: ImagePicker.MediaTypeOptions.Images,
+        allowsEditing: false,
+        quality: undefined,
+        base64: true,
+    };
+    return (mode === &apos;camera&apos;) ? await ImagePicker.launchCameraAsync(opts) : await ImagePicker.launchImageLibraryAsync(opts);
+}
+
+function _createData(result) {
+    const data = new FormData();
+
+    data.append(&quot;image&quot;, result.base64);
+    data.append(&quot;title&quot;, &quot;MySuperImage&quot;);
+    data.append(&quot;description&quot;, &quot;image upload from our Epicture server&quot;);
+    return data;
+}
+
+async function _sendReq(token, data) {
+    const auth = (!token) ? &apos;Client-ID afc1eafd0214c9d&apos; : `Bearer ${token}`;
+    const value = await fetch(&apos;https://api.imgur.com/3/image&apos;, {
+        method: &apos;POST&apos;,
+        headers: {
+            &apos;Authorization&apos;: auth,
+            &apos;Content-Type&apos;: &apos;multipart/form-data&apos;
+        },
+        body: data
+    });
+    console.log(await value.json());
+}
+
+async function _upload(mode) {
+    try {
+        const token = await AsyncStorage.getItem(&apos;@token&apos;);
+        let result = await _pickImg(mode);
+
+        if (!result.cancelled)
+            await _sendReq(token, _createData(result));
+    } catch (err) {
+        console.log(err);
+    }
+}
+
+async function _getPosts(setPosts) {
+    const token = await AsyncStorage.getItem(&apos;@token&apos;);
+
+    if (!token)
+        return;
+    const value = await fetch(&apos;https://api.imgur.com/3/account/me/images&apos;, {
+        method: &apos;GET&apos;,
+        headers: {
+            &apos;Authorization&apos;: `Bearer ${token}`,
+        },
+    });
+    if (value.ok)
+        setPosts((await value.json()).data);
+}
+
+export default function UploadScreen() {
+    const [loadingCam, setLoadingCam] = useState(false);
+    const [loadingGal, setLoadingGal] = useState(false);
+    const [id, setId] = useState(&apos;&apos;);
+    const [posts, setPosts] = useState([]);
+    const _pickFromGallery = async () =&gt; { setLoadingGal(true); await _upload(&apos;gallery&apos;); setLoadingGal(false); await _getPosts(setPosts); }
+    const _pickFromCamera = async () =&gt; { setLoadingCam(true); await _upload(&apos;camera&apos;); setLoadingCam(false); await _getPosts(setPosts); }
+
+    useEffect(() =&gt; {
+        _askPerms();
+    }, []);
+
+    return (
+        &lt;View style={styles.container}&gt;
+            &lt;View style={styles.scroll}&gt;
+                &lt;ScrollView vertical scrollEventThrottle={16}&gt;
+                    &lt;View style={{ flexDirection: &apos;row&apos;, flexWrap: &apos;wrap&apos;, justifyContent: &apos;flex-start&apos;, alignItems: &apos;flex-start&apos;, direction: &apos;inherit&apos; }}&gt;
+                        {posts.map(item =&gt; {
+                            return (
+                                &lt;Pressable onPress={() =&gt; { setId((item.id == id) ? &apos;&apos; : item.id); }}&gt;
+                                    {
+                                        item.id !== id &amp;&amp; &lt;Image style={[styles.tinyLogo, { width: 70, height: 70 }]} source={{ uri: item.link }} /&gt;
+                                    }
+                                    {
+                                        item.id === id &amp;&amp; &lt;Image style={[styles.tinyLogo, { width: Dimensions.get(&apos;screen&apos;).width, height: Dimensions.get(&apos;screen&apos;).width }]} source={{ uri: item.link }} /&gt;
+                                    }
+                                &lt;/Pressable&gt;
+                            );
+                        })}
+                    &lt;/View&gt;
+                &lt;/ScrollView&gt;
+            &lt;/View&gt;
+
+            &lt;View style={styles.bottom}&gt;
+                &lt;SpinnerButton buttonStyle={styles.button} spinnerType=&apos;SkypeIndicator&apos; isLoading={loadingGal} onPress={_pickFromGallery} indicatorCount={10}&gt;
+                    &lt;Text style={styles.text}&gt;upload from gallery&lt;/Text&gt;
+                &lt;/SpinnerButton&gt;
+                &lt;SpinnerButton buttonStyle={styles.button} spinnerType=&apos;SkypeIndicator&apos; isLoading={loadingCam} onPress={_pickFromCamera} indicatorCount={10}&gt;
+                    &lt;Text style={styles.text}&gt;upload from camera&lt;/Text&gt;
+                &lt;/SpinnerButton&gt;
+            &lt;/View&gt;
+        &lt;/View&gt;
+    );
+}
+
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+    },
+    scroll: {
+        flex: 8,
+    },
+    tinyLogo: {
+        margin: 10,
+    },
+    text: {
+        fontSize: 15,
+        textAlign: &apos;center&apos;,
+        color: &apos;white&apos;,
+        paddingHorizontal: 15,
+    },
+    button: {
+        borderRadius: 200,
+        margin: 5,
+        backgroundColor: &apos;#AB92BF&apos;
+    },
+    bottom: {
+        flex: 1,
+        flexDirection: &apos;row&apos;,
+        justifyContent: &apos;center&apos;
+    }
+});
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

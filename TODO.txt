@@ -1,0 +1,11 @@
+- auth2
+- webview
+- Features (Au moins 3 features pour grade D)
+    - feed
+    - upload
+    - favoris
+    - comment
+    - recherche
+- Ux/Ui importante
+- Doc (github ou doxygen)
+- Guide utilisateur

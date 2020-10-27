@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl">
+  <title data-ice="title">Home</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-App">App</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component">component</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ImageBox">ImageBox</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-LoadingComponent">LoadingComponent</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#redux">redux</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getViralLogic">getViralLogic</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getViralLogic">getViralLogic</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CLIENT_ID">CLIENT_ID</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-CLIENT_ID">CLIENT_ID</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#screens">screens</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-UploadScreen">UploadScreen</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-HomeScreen">HomeScreen</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-App">App</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-LoginView">LoginView</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-App">App</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><div data-ice="index" class="github-markdown"><h2 id="introduction-">Introduction:</h2><p><a href="https://imgur.com/">Imgur</a> is an image hosting and sharing site, favoured by users of social media and social news sitesbecause of its ease of use and flexibility.
+The goal of this project was to build an Android/IOS application which use and implement online photo sharing using <a href="https://imgur.com/">Imgur</a> API.
+For this project we choose to develop our app in react-native, a framework for building native apps using React.</p>
+<h2 id="summary-">Summary:</h2><ul>
+<li><a href="#user-content-requirements">Requirements</a> </li>
+<li><a href="#user-content-installation">Installation</a> </li>
+<li><a href="#user-content-usage">Usage</a> </li>
+<li><a href="#user-content-features">Features</a> </li>
+<li><a href="#user-content-authors">Authors</a> </li>
+</ul>
+<h2 id="requirements-">Requirements:</h2><ul>
+<li>nodejs</li>
+<li>npm</li>
+<li>react</li>
+<li>react-native</li>
+<li>expo</li>
+<li>redux</li>
+</ul>
+<h2 id="installation-">Installation:</h2><h4 id="get-node-js-and-npm-">Get Node.js and npm:</h4><p><strong>Fedora</strong></p>
+<pre><code class="lang-sh"><code class="source-code prettyprint">sudo dnf install nodejs</code>
+</code></pre>
+<p><strong>Arch Linux</strong></p>
+<pre><code class="lang-sh"><code class="source-code prettyprint">pacman -S nodejs npm</code>
+</code></pre>
+<p><strong>Ubuntu</strong></p>
+<pre><code class="lang-sh"><code class="source-code prettyprint">curl -sL https://deb.nodesource.com/setup_15.x | sudo -E bash -
+sudo apt-get install -y nodejs</code>
+</code></pre>
+<h4 id="get-react-native-and-expo-">Get React Native and Expo:</h4><pre><code class="lang-sh"><code class="source-code prettyprint">npm install -g expo-cli</code>
+</code></pre>
+<h4 id="get-redux-">Get Redux:</h4><pre><code class="lang-sh"><code class="source-code prettyprint">npm install @reduxjs/toolkit</code>
+</code></pre>
+<h2 id="usage-">Usage:</h2><p><strong>Run App with:</strong></p>
+<pre><code class="lang-sh"><code class="source-code prettyprint">npm install
+sudo expo start</code>
+</code></pre>
+<p><strong>Get Hybrid App with:</strong></p>
+<pre><code class="lang-sh"><code class="source-code prettyprint">npm install
+sudo expo build:android  # Android
+sudo expo build:ios      # IOs</code>
+</code></pre>
+<h2 id="features-">Features:</h2><p>The app is decomposed into 5 differents screens (1 for each functionnality): <a href="#user-content-home">Home</a>, <a href="#user-content-like">Like</a>, <a href="#user-content-search">Search</a>, <a href="#user-content-upload">Upload</a> and <a href="#user-content-profile">Profile</a> screen.
+You can swipe or simply press the logo at the bottom of your mobile screen to navigate between each functionnality.</p>
+<h3 id="home-">Home:</h3><ul>
+<li>Here you can see the most viral pictures post by users</li>
+<li>Scroll down to see more pictures</li>
+<li>You can like an image simply by pressing the <strong>like button</strong> below, and then go to see it in the <a href="#user-content-like">Like</a> screen</li>
+</ul>
+<h3 id="like-">Like:</h3><ul>
+<li>Here you can see only pictures you liked before</li>
+<li>Scroll down to see more pictures</li>
+<li>You <strong>must be logged in</strong> to access this functionnality</li>
+</ul>
+<h3 id="search-">Search:</h3><ul>
+<li>To use this functionnality, enter a <strong>keyword</strong> in the search bar and then press the <strong>submit</strong> button</li>
+<li>You will then see images corresponding to the keyword you entered</li>
+<li>Scroll down to see more pictures</li>
+<li>You can search for another <strong>keyword</strong> whenever you want</li>
+</ul>
+<h3 id="upload-">Upload:</h3><ul>
+<li>Click the <strong>upload from gallery</strong>, and then chose an image from your <strong>gallery</strong> to be upload on the <a href="https://imgur.com/">Imgur</a> platform</li>
+<li>Click the <strong>upload from camera</strong>, and then take a photo with your <strong>camera</strong> to upload it on the <a href="https://imgur.com/">Imgur</a> platform</li>
+<li><strong>Permissions</strong> on your phone&apos;s Camera/Gallery <strong>must be granted</strong> by the user to use these functionnalities</li>
+</ul>
+<h3 id="profile-">Profile:</h3><ul>
+<li>Here you can log in to the <a href="https://imgur.com/">Imgur</a> platform and then authorize Epicture to use your <a href="https://imgur.com/">Imgur</a> account</li>
+<li>Press the <strong>logout</strong> button to disconnect from Epicture</li>
+</ul>
+<h2 id="authors-">Authors:</h2><p>Michel KUSY / Quentin MAILLARD</p>
+</div>
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>
